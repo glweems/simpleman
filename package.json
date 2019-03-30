@@ -1,9 +1,10 @@
 {
   "name": "simpleman",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Styled Compenents Library",
   "main": "index.js",
   "scripts": {
+    "test": "echo no test selected",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix"
   },
@@ -20,12 +21,10 @@
     "url": "https://github.com/glweems/simpleman/issues"
   },
   "homepage": "https://github.com/glweems/simpleman#readme",
-  "dependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "styled-components": "^4.2.0"
-  },
   "devDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "styled-components": "^4.2.0",
     "babel-eslint": "^9.0.0",
     "eslint": "^5.15.3",
     "eslint-config-airbnb": "^17.1.0",
